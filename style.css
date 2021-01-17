@@ -92,7 +92,7 @@ p {
 }
 
 .s2 { 
-    background: url('/Medien/Firstshot.png');
+    background: url('./Medien/Firstshot.png');
     background-position: center;
     background-size: cover;
 
