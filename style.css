@@ -40,8 +40,8 @@ h1 {
     text-align: center;
     margin-top: 570px;
     color: white;
-    position:
 }
+
 h2 {
     text-align: left;
     color:white;
@@ -92,7 +92,7 @@ p {
 }
 
 .s2 { 
-    background: url('../Medien/Firstshot.png');
+    background: url('/Medien/Firstshot.png');
     background-position: center;
     background-size: cover;
 
@@ -105,7 +105,7 @@ p {
 }
 
 .s4 { 
-    background: url('../Medien/Interieur.png');
+    background: url('/Medien/Interieur.png');
     background-size: cover;
     background-position: center;
 
@@ -113,14 +113,14 @@ p {
 }
 
 .s5 { 
-    background: url('../Medien/Design2.png');
+    background: url('/Medien/Design2.png');
     background-size: cover; 
     background-color: #320607;
     background-position: center;
 }
 
 .s6 { 
-    background: url('../Medien/Aerodyndamik2.png');
+    background: url('/Medien/Aerodyndamik2.png');
     background-size: cover;
     background-color: #320607;
     background-position: center;
@@ -129,7 +129,7 @@ p {
 }
 
 .s7 { 
-    background: url('../Medien/Fahrdynamik.png');
+    background: url('/Medien/Fahrdynamik.png');
     background-size: cover;
     background-position: center;
 }
