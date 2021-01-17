@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bobbycar</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css" integrity="sha512-8M8By+q+SldLyFJbybaHoAPD6g07xyOcscIOQEypDzBS+sTde5d6mlK2ANIZPnSyxZUqJfCNuaIvjBUi8/RS0w==" crossorigin="anonymous" />
+    
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <div id="fullPage">
+        <section class="section s1">
+
+            <div class="content">
+                <h1>ZEITLOSER STIL</h1>
+            </div>
+
+            <div class="Logo">
+                <div class="Biglogo">
+                <img src="Medien/Logo.png" alt="">
+                </div>
+            </div>
+
+<!--             <div class="Schrift">
+                <img src="Medien/Schrift.png" alt="">
+            </div>
+ -->
+
+            <video autoplay muted loop id="Bobbycar">
+            <source src="Medien/HeroVid.mp4" type="video/mp4">
+            </video>
+
+        </section>
+
+
+        
+        <section class="section s2">
+            <h1>DER SCHNELLSTE UND STÄRKSTE BOBBYCAR ALLER ZEITEN</h1>
+        </section>
+
+        <section class="section s3">
+            <div class="g1">
+                <p> 
+                    CO2-EMISSIONEN:  <br> 
+                    <br>
+                    INNERORTS: 0 G/KM - AUSSERORTS: 0 G/KM - KOMBINIERT: 0 G/KM<br>
+                    <br>
+                    KRAFTSTOFFVERBRAUCH:<br>
+                    <br>
+                    Kalorien<br>
+                    <br>
+                    Hinweis: Die angegebenen Werte für Kraftstoffverbrauch und CO2- <br> 
+                    Emissionen wurden gemäß der Europäischen Verordnung (EG) in der <br> 
+                    zum Zeitpunkt der Typgenehmigung gültigen Fassung ermittelt. <br> 
+                    Benutzung des Fahrzeuges kann zu Spaß, Lebensfreude und <br> 
+                    Muskelkater in Ober- und Unterschenkel führen. <br> <br>
+                    Die Werte bezüglich Kraftstoffverbrauch und CO2-Emissionen <br>
+                    beziehen sich auf den NEDC-Zyklus <br> <br>
+                    Weitere Informationen zum offiziellen Kraftstoffverbrauch und den <br>
+                    offiziellen spezifischen CO2-Emissionen neuer Bobbycars können <br>
+                    dem 'Leitfaden über den Kraftstoffverbrauch, die CO2-Emissionen <br>
+                    und den Stromverbrauch neuer Einmannkraftwagen’ entnommen <br>
+                    werden, der an allen Verkaufsstellen unentgeltlich erhältlich ist. <br>
+
+                </p>
+            </div>
+            <div class="g1" id="graph">
+                    <img src="Medien/Grafik.png" alt="">
+            </div>
+        </section>
+
+        <section class="section s4">
+            <div class="obenlinks">
+            <h3>1 INTERIEUR</h3>
+            <h2>HARMONISCH, RAFFINIERT <br> UND ESSENTIELL </h2>
+            <p class="untertext"> Absoluter Komfort mit sehr viel Raum für den <br> Oberkörper. Bei der Entwicklung des <br> Innenraumdesigns galt die besondere <br> Aufmerksamkeit dem Cockpit</p>
+            </div>
+        </section>
+
+        <section class="section s5">
+            <div class="obenlinks">
+                <h3>2 Design</h3>
+            <h2>CHARMANT MIT EINER JUGENDLICHEN PRISE</h2>
+        </div>
+        </section>
+
+        <section class="section s6">
+            <div class="obenlinks">
+            <h3>3 Aerodynamik</h3>
+            <h2>HERAUSRAGENDE AERODYNAMISCHE EFFIZEINZ</h2>
+            <p class="untertext">Durch den Verzicht auf eine Windschutzscheibe erzielt <br> der Bobbycar bis dahin unerreichte Leistungen und <br> Emotionen wie bei der Formel 1</p>
+            </div>
+        </section>
+
+        <section class="section s7">
+            <div class="obenlinks">
+            <h3>4 Fahrdynamik</h3>
+            <h2>EINFACHHEIT IST DIE ULTIMATIVE RAFFINESSE</h2>
+            <p class="untertext">Um die beeindruckende Lesitung des Fahrzeuges <br>
+                leichter zugänglich zu machen, konzentrieren sich die <br>
+                Bobbycar Ingenieure besonders auf den Fahrspaß. Die <br>
+                stabile Karosserie sorgt für Fahrvergnügen für jeden <br>
+                Fahrer um mit Leichtigkeit und Selbstbewusstsein am <br>
+                Limit fahren zu kön</p>
+            </div>
+
+        </section>
+
+        <section class="section s8">
+            <h3>5 Technische Details</h3>
+
+        </section>
+
+        <section class="section s9">
+
+        </section>
+
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js" integrity="sha512-Gx/C4x1qubng2MWpJIxTPuWch9O88dhFFfpIl3WlqH0jPHtCiNdYsmJBFX0q5gIzFHmwkPzzYTlZC/Q7zgbwCw==" crossorigin="anonymous"></script>
+
+    <script>
+        new fullpage('#fullPage', {
+            navigation: true,   
+            navigationTooltips: ['Interieur', 'Design', 'Aerodynamik', 'Fahrdynamik', 'Technische Details', 'Medien Gallerie'],
+            autoScrolling: false,
+
+        } ); 
+    </script>
+
+</body>
+</html>
