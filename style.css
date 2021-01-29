@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'noto_sansregular';
+    src: url('notosans-regular-webfont.woff2') format('woff2'),
+         url('notosans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 @media only screen and (max-width: 640px){
 
@@ -95,7 +103,7 @@ p {
     
 }
 .obenlinks {
-    margin-top: -340px;
+    margin-top: -250px;
     margin-left: 7%;
     width: 80%;
 }
@@ -107,7 +115,7 @@ p {
 
 .obenlinks3 {
     margin-left: 6%;
-    padding-top: 40px;
+    padding-top: 80px;
 }
 
 .FotoVid {
@@ -391,7 +399,6 @@ display: none;
 }
 .carousel .carousel_item img {
     width: 100%;
-    max-width: 400px;
     height: auto;
 }
 .carousel .carousel_item--visible {
@@ -513,7 +520,7 @@ display: none;
         
     }
     .obenlinks {
-        margin-top: -440px;
+        margin-top: -250px;
         margin-left: 7%;
         width: 50%;
     }
@@ -900,7 +907,7 @@ display: none;
 .gradient {
     padding-top: 0px;
     width: 100%;
-    height: 230px;
+    height: 350px;
     background: linear-gradient(#32060700, #320607);
 }
 h1 {
@@ -909,8 +916,8 @@ h1 {
     color: white;
     font-family:"Playfair Display";
     font-size: 44px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-bottom: -85px;
     font-weight: 200;
 }
@@ -948,7 +955,7 @@ p {
 .obenlinks {
     margin-top: -290px;
     margin-left: 6%;
-    width: 35%;
+    width: 29%;
 }
 .obenlinks2 {
     margin-left: 6%;
