@@ -7,7 +7,7 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css" integrity="sha512-8M8By+q+SldLyFJbybaHoAPD6g07xyOcscIOQEypDzBS+sTde5d6mlK2ANIZPnSyxZUqJfCNuaIvjBUi8/RS0w==" crossorigin="anonymous" />
     
-    <link rel="stylesheet" href="style.css" type="text/css" href="http//fonts.googleapis.com/css?family=Playfair+Display" href="http//fonts.googleapis.com/css?family=Noto+Sans" /> 
+    <link rel="stylesheet" href="style.css" type="text/css" href="https//fonts.googleapis.com/css?family=Playfair+Display" href="https//fonts.googleapis.com/css?family=Noto+Sans" /> 
 
 
 </head>
@@ -188,12 +188,12 @@
                 <button id="ChangeF"><h3>FOTOS</h3></button>
                 <button id="ChangeV"><h3>VIDEOS</h3></button>
             </div>
-            <div class="carousel--hidden">
+            <div id="carouselVideo" class="carousel-hidden">
                 <video src="Medien/FerrarixBobbycar.mp4" controls></video>
             </div>
+            
 
-
-            <div class="carousel">
+            <div class="carousel carousel-shown" id="carouselImg">
                 <div class="carousel_item carousel_item--visible">
                     <img src="Medien/Gallierie1.png" alt="">
                 </div>
@@ -262,7 +262,7 @@
     <script>
         new fullpage('#fullPage', {
             navigation: true,   
-            navigationTooltips: ['Interieur', 'Design', 'Aerodynamik', 'Interieur', 'Design', 'Aerodynamik', 'Fahrdynamik', 'Technische Details'],
+            navigationTooltips: ['', '', '', 'INTERIEUR', 'DESIGN', 'AERODYNAMIK', 'FAHRDYNAMIK', 'TECHNISCHE DETAILS', 'Vertrags'],
             autoScrolling: false,
             navigationPosition: 'left',
             fitToSection: true

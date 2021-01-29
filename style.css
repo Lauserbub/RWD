@@ -372,17 +372,22 @@ i {
     margin-top: -40px;
 }
 
-.carousel--hidden {
+#carouselVideo {
     margin-left: 7%;
     margin-right: 7%;
     margin-top: 50px;
     overflow: hidden;
-    display: flex;
     justify-content: space-around;
 }
-.carousel--hidden > video {
+#carouselVideo > video {
     width: 35%;
+}
+
+.carousel-hidden {
     display: none;
+}
+.carousel-shown {
+    display: flex;
 }
 
 .carousel {
@@ -391,7 +396,6 @@ i {
     margin-top: 50px;
     overflow: hidden;
     max-width: 90%;
-    display: flex;
     justify-content: space-around;
 }
 

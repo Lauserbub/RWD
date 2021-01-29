@@ -1,7 +1,5 @@
-let carouselPosition = 0;
-const carousel = document.getElementsByClassName('carousel');
-const totalCarousel = carousel.length;
-
+const carouselImg = document.getElementById('carouselImg');
+const carouselVideo = document.getElementById('carouselVideo');
 
 document.
     getElementById('ChangeF')
@@ -17,16 +15,29 @@ document.
     );
 
 function showFotos() {
+    carouselImg.classList.remove('carousel-hidden')
+    carouselImg.classList.add('carousel-shown')
+    carouselVideo.classList.add('carousel-hidden')
+    carouselVideo.classList.remove('carousel-shown')
+    }
+
+function showVideos() {
+    carouselVideo.classList.remove('carousel-hidden')
+    carouselVideo.classList.add('carousel-shown')
+    carouselImg.classList.add('carousel-hidden')
+    carouselImg.classList.remove('carousel-shown')
+    }
     
-    carousel.classList.remove('carouslVid')
-    carousel.classList.documentadd('carosel')
-    }
+    
 
-    function showVideos() {
-    carousel.classList.remove('carousel')
-    carousel.classList.add('carouselVid')
-    }
 
+
+
+
+
+
+
+    
 
 let slidePosition = 0;
 const slides = document.getElementsByClassName ('carousel_item');
@@ -46,34 +57,31 @@ document.
 
 
 function updateSlidePosition() {
-    for (let slide of slides) {
-        slide.classList.remove('carousel_item--visible')
-        slide.classList.add('carousel_item')
+    for (let index = 0; index < slides.length; index++) {
+        const slide = slides[index];
+         if (index >= slidePosition && index <= slidePosition + 2) {
+            slide.classList.add('carousel_item--visible');
+        }
+        else {
+            slide.classList.remove('carousel_item--visible');
+        }
     }
-
-    slides [slidePosition].classList.add('carousel_item--visible')
 }
 
 function moveToNextSlide() {
-    if (slidePosition == totalSlides -1) {
-        slidePosition = 0;
-    }
-    else {
+    if (slidePosition <= slides.length -4) {
         slidePosition ++; 
+        updateSlidePosition();
+
     }
-    updateSlidePosition();
 
 }
 
 function moveToPrevSlide() {
-    if (slidePosition == 0) {
-        slidePosition = totalSlides -1;
-    }
-    else {
+    if (slidePosition > 0) {
         slidePosition --; 
+        updateSlidePosition();
     }
-    updateSlidePosition();
-
 }
 
 
