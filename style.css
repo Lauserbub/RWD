@@ -57,7 +57,7 @@ h1 {
     text-align: center;
     margin-top: 510px;
     color: white;
-    font-family:"Playfair Display";
+    font-family: 'Playfair Display', serif;
     font-size: 26px;
     margin-left: 10%;
     margin-right: 10%;
@@ -72,7 +72,7 @@ h1 {
 h2 {
     text-align: left;
     color:white;
-    font-family:"Playfair Display";
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 22px;
 
@@ -80,7 +80,7 @@ h2 {
 h3 {
     text-align: left;
     color: #DA291C; 
-    font-family: "Noto Sans";
+    font-family: 'Noto Sans', sans-serif;
     font-weight: 540;
     font-size: 14px;
     letter-spacing: 1.8px;
@@ -91,12 +91,12 @@ h3 {
 
 p {
     color: white;
-    font-family: "Noto Sans";
+    font-family: 'Noto Sans', sans-serif;
     font-size: 15px;
 }
 .untertext {
     color: white;
-    font-family: "Noto Sans";
+    font-family: 'Noto Sans', sans-serif;
     
 }
 .obenlinks {
@@ -474,7 +474,7 @@ display: none;
         text-align: center;
         margin-top: 510px;
         color: white;
-        font-family:"Playfair Display";
+        font-family: 'Playfair Display', serif;
         font-size: 26px;
         margin-left: 10%;
         margin-right: 10%;
@@ -489,7 +489,7 @@ display: none;
     h2 {
         text-align: left;
         color:white;
-        font-family:"Playfair Display";
+        font-family: 'Playfair Display', serif;
         font-weight: 400;
         font-size: 22px;
     
@@ -497,7 +497,7 @@ display: none;
     h3 {
         text-align: left;
         color: #DA291C; 
-        font-family: "Noto Sans";
+        font-family: 'Noto Sans', sans-serif;
         font-weight: 540;
         font-size: 14px;
         letter-spacing: 1.8px;
@@ -508,12 +508,12 @@ display: none;
     
     p {
         color: white;
-        font-family: "Noto Sans";
+        font-family: 'Noto Sans', sans-serif;
         font-size: 15px;
     }
     .untertext {
         color: white;
-        font-family: "Noto Sans";
+        font-family: 'Noto Sans', sans-serif;
         
     }
     .obenlinks {
@@ -911,7 +911,7 @@ h1 {
     text-align: center;
     margin-top: 510px;
     color: white;
-    font-family:"Playfair Display";
+    font-family: 'Playfair Display', serif;
     font-size: 44px;
     margin-left: 25%;
     margin-right: 25%;
@@ -922,7 +922,7 @@ h1 {
 h2 {
     text-align: left;
     color:white;
-    font-family:"Playfair Display";
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 26px;
 
@@ -930,7 +930,7 @@ h2 {
 h3 {
     text-align: left;
     color: #DA291C; 
-    font-family: "Noto Sans";
+    font-family: 'Noto Sans', sans-serif;
     font-weight: 540;
     font-size: 14px;
     letter-spacing: 1.8px;
@@ -941,12 +941,12 @@ h3 {
 
 p {
     color: white;
-    font-family: "Noto Sans";
+    font-family: 'Noto Sans', sans-serif;
     font-size: 16px;
 }
 .untertext {
     color: white;
-    font-family: "Noto Sans";
+    font-family: 'Noto Sans', sans-serif;
     
 }
 .obenlinks {
