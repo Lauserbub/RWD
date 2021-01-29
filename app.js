@@ -1,3 +1,33 @@
+let carouselPosition = 0;
+const carousel = document.getElementsByClassName('carousel');
+const totalCarousel = carousel.length;
+
+
+document.
+    getElementById('ChangeF')
+    .addEventListener("click", function() {
+        showFotos();
+    }
+    );
+document.
+    getElementById('ChangeV')
+    .addEventListener("click", function() {
+        showVideos();
+    }
+    );
+
+function showFotos() {
+    
+    carousel.classList.remove('carouslVid')
+    carousel.classList.documentadd('carosel')
+    }
+
+    function showVideos() {
+    carousel.classList.remove('carousel')
+    carousel.classList.add('carouselVid')
+    }
+
+
 let slidePosition = 0;
 const slides = document.getElementsByClassName ('carousel_item');
 const totalSlides = slides.length;
@@ -45,3 +75,16 @@ function moveToPrevSlide() {
     updateSlidePosition();
 
 }
+
+
+
+
+/*
+$(getElementById('Bobbycar')).each(function(){
+    if ($(getElementById('Bobbycar')).is(":in-viewport")) {
+        $(getElementById('Bobbycar')).play();
+    } else {
+        $(getElementById('Bobbycar')).pause();
+    }
+})
+*/

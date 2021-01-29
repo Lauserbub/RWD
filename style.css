@@ -90,7 +90,7 @@ p {
     
 }
 .obenlinks {
-    margin-top: -275px;
+    margin-top: -290px;
     margin-left: 6%;
     width: 35%;
 }
@@ -105,29 +105,43 @@ p {
     padding-top: 10px;
 }
 
+.FotoVid {
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    position: absolute;
+    margin-left: 80%;
+    margin-top: -3%;
+}
+
 .untenrechts p {
     color: #181818;
     font-family:"Playfair Display";
     font-size: 24px;
-    margin-right: 15%;
-    
+    padding-right: 8%;
+    padding-left: 8%;
 }
 .untenrechts {
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 30%;
+    width: 35%;
     background-color: white;
-    padding-top: -1%;
-    padding-bottom: -1%;
     border: 0px;    
     cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.buttonRight {
+    position: absolute;
+    right: 11%;
+    top: 21px;
 }
 
 .newslettercontainer {
     display: flex;
-    align-items: flex-end;
-    margin-top: 150px;
 }
 
 .newsletter {
@@ -139,7 +153,52 @@ p {
     bottom: 0;
     position: absolute;
     margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.newsletter > p {
+    margin-right: 1%;
+}
+
+#DB_Left {
+    position: absolute;
+    padding-left: 25%;
+    padding-top: 12%;
+    cursor: pointer;
+}
+
+#DB_Top {
+    position: absolute;
+    padding-left: 40%;
+    cursor: pointer;
+    margin-top: -2%;
+
+}
+
+#DB_Right{
+    position: absolute;
+    padding-left: 70%;
+    padding-top: 18%;
+    cursor: pointer;
+}
+
+#AB_Left {
+    position: absolute;
+    padding-left: 15%;
+    padding-top: 12%;
+    cursor: pointer;
+
+}
+
+#AB_Right {
+    position: absolute;
+    padding-left: 75%;
+    margin-top: -10%;
+    cursor: pointer;
+
+}
+
 
 .footer {
     background-color: #181818;
@@ -161,9 +220,16 @@ p {
     width: 50%;
     margin-bottom: 4%;
 }
+.suchen1 {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    width: 40%;
+}
 .suchen1 > p{
     font-size: 18px;
     font-weight: 600;
+    margin-right: 5%;
 }
 
 #Haendler1 {
@@ -288,9 +354,36 @@ i {
 }
 
 #fp-nav {
-    margin-top: 250px;
+    margin-top: 15%;
 }
 
+#ChangeF {
+    cursor: pointer;
+    background-color: #320607;
+    border: 0;
+}
+#ChangeV {
+    cursor: pointer;
+    background-color: #320607;
+    border: 0;
+}
+
+.carouselDrauf {
+    margin-top: -40px;
+}
+
+.carousel--hidden {
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 50px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+.carousel--hidden > video {
+    width: 35%;
+    display: none;
+}
 
 .carousel {
     margin-left: 7%;
@@ -301,7 +394,6 @@ i {
     display: flex;
     justify-content: space-around;
 }
-
 
 .carousel .carousel_item,
 .carousel .carousel_item--hidden{
@@ -319,10 +411,9 @@ i {
 .carousel .carousel_actions {
     display: flex;
     justify-content: space-between;
-    top: 90%;
     position: absolute;
-    transform: translateY(-90%);
     width: 80%;
+    padding-top: 290px;
 }
 
 .carousel .carousel_actions button {
