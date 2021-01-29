@@ -1,11 +1,8 @@
-@font-face {
-    font-family: 'noto_sansregular';
-    src: url('notosans-regular-webfont.woff2') format('woff2'),
-         url('notosans-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+@import url('https//fonts.googleapis.com/css?family=Playfair+Display');
 
-}
+
+@import url('https//fonts.googleapis.com/css?family=Noto+Sans');
+
 
 @media only screen and (max-width: 640px){
 
